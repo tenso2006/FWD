@@ -1,0 +1,36 @@
+h1{
+	color: Purple;
+	padding-left: 300px;
+	text-decoration: underline;
+}
+
+p{
+	font-style: italic;
+	font: sans-serif;
+	font-color: darkblue;
+}
+
+.style-one{
+	color: green;
+}
+
+.style-two{
+	color: red;
+	margin-bottom: 5em;
+	background: grey;
+	padding: 20px;
+}
+
+.style-one .style-two{
+	color: yellow;
+}
+
+.style-one.style-two{
+	color: blue;
+}
+
+.style-one,.style-one.style-two{
+	display: inline;
+}
+
+
